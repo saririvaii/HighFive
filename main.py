@@ -29,7 +29,7 @@ def main():
             break
 
         # display the resulting frame
-        cv2.imshow('HighFive 👋', frame)
+        cv2.imshow('HighFive', frame)
 
         # exit loop when q is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
